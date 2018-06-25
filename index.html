@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script language="javascript" type="text/javascript">
+<!--
+
+function generateTable()
+{    let user = document.querySelector("input").value;
+     document.getElementById("demo").innerHTML = myString;
+
+
+     // var myVar = prompt("A number?", "");
+     var myString = "";
+     for (var i=1; i<=10; i++) {
+       myString += i+ " x " +user+ " = " +(i*user)+ "\n";
+
+
+     }
+     // alert(myString);
+}
+
+//-->
+</script>
+
+	<!-- <script type="text/javascript" src="script.js"></script> -->
+</head>
+<body style="background-color: silver; max-width: 100%; max-height: auto; text-align: center;">
+	<h1 style="font-family: courier;">SHOW OUTPUT</h1>
+	<input style="font-size: 16px; " 
+	type="number" placeholder="Put n0 here">
+	<br>
+	<br>
+    <button style="background-color: black; color: white; font-size: 25px; font-family: courier; border-radius: 15px 50px 30px; border: 0px; cursor: pointer; margin: 0; outline: none;" 
+        onclick="javascript:generateTable()">SHOW TABLE</button>
+   <!-- <a href=>Create New Table</a> -->
+
+        <p id="demo" style="font-family: cursive; font-family: 16px;">THE OUTPUT OF INPUT IS</p>
+</body>
+</html>
